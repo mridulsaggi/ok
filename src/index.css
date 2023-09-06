@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar a,.choice button,.btn{
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  height: 2rem;
+  width:8rem;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: blue;
+  color: aliceblue;
+  border: .1rem solid black;
+  border-radius: 6px;
+  margin: 1rem;
+}
+.navbar a:hover,.btn{
+  cursor: pointer;
+  background-color: rgb(113, 140, 231);
+}
+
+.choice{
+  margin: 4rem auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.choice button{
+  width: 12rem;
+  margin: 1rem auto;
+}
+.form{
+  box-shadow: 1px 1px 4px 4px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.form input{
+  margin: 1rem auto;
+  width: 50%;
+  height: 2rem;
+  border-radius: 7px;
+  border-color: black;
+
+}
